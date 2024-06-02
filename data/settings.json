@@ -1,0 +1,17 @@
+{
+    "auto_apply_build": false,
+    "print_build": true,
+    "enable_survivor_items_and_addons": true,
+    "enable_event_items": false,
+    "enable_event_addons": false,
+    "enable_killer_addons": true,
+    "enable_big_bp_offerings": true,
+    "enable_small_bp_offerings": false,
+    "enable_map_offerings": true,
+    "enable_map_modification_offerings": true,
+    "enable_luck_offerings": true,
+    "enable_ward_offerings": true,
+    "enable_shroud_offerings": true,
+    "enable_mori_offerings": true,
+    "enable_event_offerings": false
+}

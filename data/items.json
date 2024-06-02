@@ -1,0 +1,29 @@
+{
+    "Items": {
+        "Medkits": ["Camping Aid Kit", "First Aid Kit", "Emergency Med-kit", "Ranger Med-Kit"],
+        "Toolboxes": ["Worn-Out Tools", "Toolbox", "Commodious Toolbox", "Mechanic's Toolbox", "Alex's Toolbox", "Engineer's Toolbox"],
+        "Flashlights": ["Flashlight", "Sport Flashlight", "Utility Flashlight"],
+        "Keys": ["Broken Key", "Dull Key", "Skeleton Key"],
+        "Maps": ["Map", "Rainbow Map"]
+    },
+    "Event Items": {
+        "Medkits": ["All Hallows' Eve Lunchbox", "Anniversary Med-Kit", "Masquerade Med-Kit"],
+        "Toolboxes": ["Anniversary Toolbox", "Festive Toolbox", "Masquerade Toolbox"],
+        "Flashlights": ["Will O' Wisp", "Anniversary Flashlight", "Masquerade Flashlight"],
+        "Maps": ["Bloodsense Map"],
+        "Firecrackers": ["Chinese Firecracker", "Winter Party Starter", "Third Year Party Starter"]
+    },
+    "Addons": {
+        "Medkits": ["Bandages", "Butterfly Tape", "Rubber Gloves", "Medical Scissors", "Needle & Thread",
+            "Sponge", "Gauze Roll", "Surgical Suture", "Abdominal Dressing", "Styptic Agent", "Anti-Haemorrhagic Syringe", "Gel Dressings"],
+        "Toolboxes": ["Clean Rag", "Instructions", "Scraps", "Cutting Wire", "Protective Gloves", "Socket Swivels", "Wire Spool",
+            "Grip Wrench", "Hacksaw", "Brand New Part"],
+        "Flashlights": ["Battery", "Leather Grip", "Power Bulb", "Wide Lens", "Focus Lens", "Heavy Duty Battery", "Low Amp Filament",
+            "Rubber Grip", "TIR Optic", "Intense Halogen", "Long Life Battery", "High-End Sapphire Lens", "Odd Bulb"],
+        "Keys": ["Prayer Rope", "Eroded Token", "Prayer Beads", "Scratched Pearl", "Gold Token", "Blood Amber", "Milky Glass", "Unique Wedding Ring", "Weaved Ring"],
+        "Maps": ["Map Addendum", "Glass Bead", "Red Twine", "Retardant Jelly", "Unusual Stamp", "Yellow Wire", "Black Silk Cord", "Odd Stamp", "Crystal Bead"],
+        "Firecrackers": ["Buck Shot", "Flash Powder", "Medium Fuse", "Gun Powder", "Long Fuse", "Magnesium Powder", "Black Powder", "Large Pack"],
+        "Event Medkit": ["Refined Serum"],
+        "Event Flashlight": ["Broken Bulb"]
+    }
+}

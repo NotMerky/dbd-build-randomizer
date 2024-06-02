@@ -1,0 +1,22 @@
+{
+    "Survivor": {
+        "Big Bloodpoints": ["Escape! Cake", "Sealed Envelope", "Bound Envelope"],
+        "Small Bloodpoints": ["Primrose Blossom Sachet", "Fresh Primrose Blossom", "Fragrant Primrose Blossom", "Sweet William Sachet", "Fresh Sweet William", "Fragrant Sweet William", "Bog Laurel Sachet", "Fresh Bog Laurel", "Fragrant Bog Laurel", "Crispleaf Amaranth Sachet", "Fresh Crispleaf Amaranth", "Fragrant Crispleaf Amaranth"],
+        "Maps": ["MacMilan's Phalanx Bone", "Azarov's Key", "Heart Locket", "Charred Wedding Photograph", "Grandma's Cookbook", "Shattered Glasses", "The Last Mask", "The Pied Piper", "Jigsaw Piece", "Yamaoka Family Crest", "Damaged Photo", "Hawkins National Laboratory ID", "Mary's Letter", "Shattered Bottle", "RPD Badge", "Crow's Eye", "Ichorous Loam", "Beef Tallow Mixture", "Alien Flora", "Airlock Doors"],
+        "Map Modifications": ["Bloodied Blueprint", "Torn Blueprint", "Annotated Blueprint", "Vigo's Blueprint", "Tarnished Coin", "Shiny Coin", "Clear Reagent", "Faint Reagent", "Hazy Reagent", "Murky Reagent", "Petrified Oak"],
+        "Luck": ["Chalk Pouch", "Cream Chalk Pouch", "Ivory Chalk Pouch", "Salt Pouch", "Black Salt Statuette", "Vigo's Jar of Salty Lips"],
+        "Wards": ["Sacrificial Ward", "White Ward"],
+        "Shrouds": ["Shroud of Separation", "Shroud of Union", "Shroud of Binding"],
+        "Event": ["Gruesome Gateau", "Ghastly Gateau", "Sacrificial Cake", "Frightful Flan", "Terrormisu"]
+    },
+    "Killer": {
+        "Big Bloodpoints": ["Survivor Pudding", "Hollow Shell"],
+        "Small Bloodpoints": ["Tanager Wreath", "Devout Tanager Wreath", "Ardent Tanager Wreath", "Raven Wreath", "Devout Raven Wreath", "Ardent Raven Wreath", "Spotted Owl Wreath", "Devout Spotted Owl Wreath", "Ardent Spotted Owl Wrealth", "Shrike Wreath", "Devout Shrike Wreath", "Ardent Shrike Wreath"],
+        "Maps": ["MacMilan's Phalanx Bone", "Azarov's Key", "Heart Locket", "Charred Wedding Photograph", "Grandma's Cookbook", "Shattered Glasses", "The Last Mask", "The Pied Piper", "Jigsaw Piece", "Yamaoka Family Crest", "Damaged Photo", "Hawkins National Laboratory ID", "Mary's Letter", "Shattered Bottle", "RPD Badge", "Crow's Eye", "Ichorous Loam", "Beef Tallow Mixture", "Alien Flora", "Airlock Doors"],
+        "Map Modifications": ["Bloodied Blueprint", "Torn Blueprint", "Annotated Blueprint", "Vigo's Blueprint", "Tarnished Coin", "Shiny Coin", "Clear Reagent", "Faint Reagent", "Hazy Reagent", "Murky Reagent", "Mouldy Oak", "Rotten Oak", "Putrid Oak"],
+        "Moris": ["Cypress Memento Mori", "Ivory Memento Mori", "Ebony Memento Mori"],
+        "Wards": ["Sacrificial Ward", "Black Ward"],
+        "Shrouds": ["Shroud of Separation"],
+        "Event": ["Gruesome Gateau", "Ghastly Gateau", "Sacrificial Cake", "Frightful Flan", "Terrormisu"]
+    }
+}
