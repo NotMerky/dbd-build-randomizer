@@ -1,6 +1,7 @@
 from build import generate_random_survivor_build, generate_random_killer_build
 from utils import clear_screen, pause_screen, get_user_choice, set_console_title, print_survivor_build, print_killer_build
 from settings import adjust_settings, load_settings
+from apply import apply_build
 
 def main():
     set_console_title("DBD Build Randomizer by Merky")
@@ -20,7 +21,7 @@ def main():
             if settings['print_build']:
                 print_survivor_build(build)
             if settings['auto_apply_build']:
-                pass
+                apply_build(build)
             pause_screen()
             
         elif choice == 2:
@@ -28,7 +29,7 @@ def main():
             if settings['print_build']:
                 print_killer_build(build)
             if settings['auto_apply_build']:
-                pass
+                apply_build(build)
             pause_screen()
 
         elif choice == 3:
