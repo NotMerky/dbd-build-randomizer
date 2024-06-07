@@ -38,15 +38,14 @@ def adjust_settings():
     settings = load_settings()
     while True:
         clear_screen()
-        print("===== Settings =====")
+        print("========== Settings ==========")
         print("[1] Program Settings")
         print("[2] Items & Addons Settings")
         print("[3] Offerings Settings")
-        print("[4] Calibrate Auto Apply")
-        print("[5] Restore Default Settings")
-        print("[6] Back\n")
+        print("[4] Restore Default Settings")
+        print("[5] Back\n")
 
-        choice = get_user_choice(1, 6)
+        choice = get_user_choice(1, 5)
 
         if choice == 1:
             adjust_program_settings(settings)
@@ -55,10 +54,8 @@ def adjust_settings():
         elif choice == 3:
             adjust_offerings_settings(settings)
         elif choice == 4:
-            calibrate_mouse(settings)
-        elif choice == 5:
             restore_default_settings(settings)
-        elif choice == 6:
+        elif choice == 5:
             save_settings(settings)
             print("\nSettings saved.\n")
             pause_screen()
@@ -67,24 +64,27 @@ def adjust_settings():
 def adjust_program_settings(settings):
     while True:
         clear_screen()
-        print("===== Program Settings =====")
+        print("=============== Program Settings ===============")
         print("[1] Auto Apply Random Loadout (Currently:", "Enabled)" if settings['auto_apply_build'] else "Disabled)")
         print("[2] Print Loadout After Creating Random Build (Currently:", "Enabled)" if settings['print_build'] else "Disabled)")
-        print("[3] Back\n")
+        print("[3] Calibrate Mouse Handling")
+        print("[4] Back\n")
 
-        choice = get_user_choice(1, 3)
+        choice = get_user_choice(1, 4)
 
         if choice == 1:
             settings['auto_apply_build'] = not settings['auto_apply_build']
         elif choice == 2:
             settings['print_build'] = not settings['print_build']
         elif choice == 3:
+            calibrate_mouse(settings)
+        elif choice == 4:
             break
 
 def adjust_items_addons_settings(settings):
     while True:
         clear_screen()
-        print("===== Items & Addons Settings =====")
+        print("=============== Items & Addons Settings ===============")
         print("[1] Survivor Items & Addons (Currently:", "Enabled)" if settings['enable_survivor_items_and_addons'] else "Disabled)")
         print("[2] Event Items (Currently:", "Enabled)" if settings['enable_event_items'] else "Disabled)")
         print("[3] Event Addons (Currently:", "Enabled)" if settings['enable_event_addons'] else "Disabled)")
@@ -107,9 +107,9 @@ def adjust_items_addons_settings(settings):
 def adjust_offerings_settings(settings):
     while True:
         clear_screen()
-        print("===== Offerings Settings =====")
-        print("[1] Big Bloodpoints Offerings (Currently:", "Enabled)" if settings['enable_big_bp_offerings'] else "Disabled)")
-        print("[2] Small Bloodpoints Offerings (Currently:", "Enabled)" if settings['enable_small_bp_offerings'] else "Disabled)")
+        print("=============== Offerings Settings ===============")
+        print("[1] All Category Bloodpoint Offerings (Currently:", "Enabled)" if settings['enable_big_bp_offerings'] else "Disabled)")
+        print("[2] Single Category Bloodpoints Offerings (Currently:", "Enabled)" if settings['enable_small_bp_offerings'] else "Disabled)")
         print("[3] Map Offerings (Currently:", "Enabled)" if settings['enable_map_offerings'] else "Disabled)")
         print("[4] Map Modifications Offerings (Currently:", "Enabled)" if settings['enable_map_modification_offerings'] else "Disabled)")
         print("[5] Luck Offerings (Currently:", "Enabled)" if settings['enable_luck_offerings'] else "Disabled)")

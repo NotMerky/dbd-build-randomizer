@@ -43,7 +43,8 @@
         "Nicolas Cage": ["Dramaturgy", "Scene Partner", "Plot Twist"],
         "Ellen Ripley": ["Chemical Trap", "Light-Footed", "Lucky Star"],
         "Alan Wake": ["Champion of Light", "Boon: Illumination", "Deadline"],
-        "Sable Ward": ["Invocation: Weaving Spiders", "Strength in Shadows", "Wicked"]
+        "Sable Ward": ["Invocation: Weaving Spiders", "Strength in Shadows", "Wicked"],
+        "Aestri Yazar": ["Mirrored Illusion", "Bardic Inspiration", "Still Sight"]
     },
     "Killer": {
         "General Perks": ["Bitter Murmur", "Deerstalker", "Distressing", "Hex: No One Escapes Death",
@@ -83,6 +84,7 @@
         "The Singularity": ["Genetic Limits", "Forced Hesitation", "Machine Learning"],
         "The Xenomorph": ["Rapid Brutality", "Alien Instinct", "Ultimate Weapon"],
         "The Good Guy": ["Hex; Two Can Play", "Friends 'til the End", "Batteries Included"],
-        "The Unknown": ["Unbound", "Unforseen", "Undone"]
+        "The Unknown": ["Unbound", "Unforseen", "Undone"],
+        "The Lich": ["Weave Attunement", "Languid Touch", "Dark Arrogance"]
     }
 }

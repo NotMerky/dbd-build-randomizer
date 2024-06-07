@@ -1,5 +1,5 @@
 {
-    "auto_apply_build": true,
+    "auto_apply_build": false,
     "print_build": true,
     "enable_survivor_items_and_addons": true,
     "enable_event_items": false,
