@@ -2,8 +2,8 @@ import os
 import ctypes
 import json
 
-def set_console_title(title):
-    ctypes.windll.kernel32.SetConsoleTitleW(title)
+def set_console_title():
+    os.system("title DBD Randomizer - By Merky")
 
 def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
