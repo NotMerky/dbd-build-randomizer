@@ -4,7 +4,7 @@ from settings import adjust_settings, load_settings
 from apply import apply_build
 
 def main():
-    set_console_title("DBD Build Randomizer by Merky")
+    set_console_title()
     while True:
         settings = load_settings()
         clear_screen()
