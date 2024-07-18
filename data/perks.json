@@ -44,7 +44,8 @@
         "Ellen Ripley": ["Chemical Trap", "Light-Footed", "Lucky Star"],
         "Alan Wake": ["Champion of Light", "Boon: Illumination", "Deadline"],
         "Sable Ward": ["Invocation: Weaving Spiders", "Strength in Shadows", "Wicked"],
-        "Aestri Yazar": ["Mirrored Illusion", "Bardic Inspiration", "Still Sight"]
+        "Aestri Yazar": ["Mirrored Illusion", "Bardic Inspiration", "Still Sight"],
+        "Lara Croft": ["Finesse", "Hardened", "Specialist"]
     },
     "Killer": {
         "General Perks": ["Bitter Murmur", "Deerstalker", "Distressing", "Hex: No One Escapes Death",
