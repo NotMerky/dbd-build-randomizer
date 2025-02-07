@@ -45,7 +45,9 @@
         "Alan Wake": ["Champion of Light", "Boon: Illumination", "Deadline"],
         "Sable Ward": ["Invocation: Weaving Spiders", "Strength in Shadows", "Wicked"],
         "Aestri Yazar": ["Mirrored Illusion", "Bardic Inspiration", "Still Sight"],
-        "Lara Croft": ["Finesse", "Hardened", "Specialist"]
+        "Lara Croft": ["Finesse", "Hardened", "Specialist"],
+        "Trevor Belmont": ["Exultation", "Eyes of Belmont", "Moment of Glory"],
+        "Taurie Cain": ["Clean Break", "Invocation: Treacherous Crows", "Shoulder the Burden"]
     },
     "Killer": {
         "General Perks": ["Bitter Murmur", "Deerstalker", "Distressing", "Hex: No One Escapes Death",
@@ -84,8 +86,10 @@
         "The Skull Merchant": ["THWACK!", "Leverage", "Game Afoot"],
         "The Singularity": ["Genetic Limits", "Forced Hesitation", "Machine Learning"],
         "The Xenomorph": ["Rapid Brutality", "Alien Instinct", "Ultimate Weapon"],
-        "The Good Guy": ["Hex; Two Can Play", "Friends 'til the End", "Batteries Included"],
+        "The Good Guy": ["Hex: Two Can Play", "Friends 'til the End", "Batteries Included"],
         "The Unknown": ["Unbound", "Unforseen", "Undone"],
-        "The Lich": ["Weave Attunement", "Languid Touch", "Dark Arrogance"]
+        "The Lich": ["Weave Attunement", "Languid Touch", "Dark Arrogance"],
+        "The Dark Lord": ["Dominance", "Hex: Wretched Fate", "Human Greed"],
+        "The Houndmaster": ["All-Shaking Thunder", "No Quarter", "Scourage Hook: Jagged Compass"]
     }
 }
