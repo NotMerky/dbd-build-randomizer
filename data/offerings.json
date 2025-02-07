@@ -7,7 +7,7 @@
         "Luck": ["Chalk Pouch", "Cream Chalk Pouch", "Ivory Chalk Pouch", "Salt Pouch", "Black Salt Statuette", "Vigo's Jar of Salty Lips"],
         "Wards": ["Sacrificial Ward", "White Ward"],
         "Shrouds": ["Shroud of Separation", "Shroud of Union", "Shroud of Binding"],
-        "Event": ["Gruesome Gateau", "Ghastly Gateau", "Sacrificial Cake", "Frightful Flan", "Terrormisu"]
+        "Event": ["Gruesome Gateau", "Ghastly Gateau", "Sacrificial Cake", "Frightful Flan", "Terrormisu", "Screech Cobbler"]
     },
     "Killer": {
         "Big Bloodpoints": ["Survivor Pudding", "Hollow Shell"],
@@ -17,6 +17,6 @@
         "Moris": ["Cypress Memento Mori", "Ivory Memento Mori", "Ebony Memento Mori"],
         "Wards": ["Sacrificial Ward", "Black Ward"],
         "Shrouds": ["Shroud of Separation"],
-        "Event": ["Gruesome Gateau", "Ghastly Gateau", "Sacrificial Cake", "Frightful Flan", "Terrormisu"]
+        "Event": ["Gruesome Gateau", "Ghastly Gateau", "Sacrificial Cake", "Frightful Flan", "Terrormisu, Screech Cobbler"]
     }
 }
