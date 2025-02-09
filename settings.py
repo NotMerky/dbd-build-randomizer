@@ -1,3 +1,5 @@
+import os
+import sys
 import json
 import pyautogui
 import time
@@ -6,32 +8,42 @@ from utils import clear_screen, pause_screen, get_user_choice
 
 SETTINGS_FILE = "data/settings.json"
 
+def get_data_file_path(filename):
+    """Gets the correct path for data files, considering PyInstaller behavior."""
+    if getattr(sys, 'frozen', False):  # Running as a PyInstaller .exe
+        base_path = sys._MEIPASS
+    else:
+        base_path = os.path.dirname(os.path.abspath(__file__))
+
+    return os.path.join(base_path, 'data', filename)
+
+def get_writable_settings_path():
+    """Gets a writable location for settings.json (in user's AppData or local directory)."""
+    if sys.platform == "win32":
+        appdata_path = os.path.join(os.getenv('APPDATA'), "MyProgram")
+    else:
+        appdata_path = os.path.join(os.path.expanduser("~"), ".myprogram")
+
+    os.makedirs(appdata_path, exist_ok=True)  # Ensure directory exists
+    return os.path.join(appdata_path, "settings.json")
+
 def load_settings():
-    try:
-        with open(SETTINGS_FILE, 'r') as f:
-            return json.load(f)
-    except FileNotFoundError:
-        # Default settings if file doesn't exist
-        return {
-            "auto_apply_build": False,
-            "print_build": True,
-            "enable_survivor_items_and_addons": True,
-            "enable_event_items": False,
-            "enable_event_addons": False,
-            "enable_killer_addons": True,
-            "enable_big_bp_offerings": True,
-            "enable_small_bp_offerings": False,
-            "enable_map_offerings": True,
-            "enable_map_modification_offerings": True,
-            "enable_luck_offerings": True,
-            "enable_ward_offerings": True,
-            "enable_shroud_offerings": True,
-            "enable_mori_offerings": True,
-            "enable_event_offerings": False
-        }
-    
+    """Loads settings from a user-writable location or falls back to the bundled settings.json."""
+    writable_path = get_writable_settings_path()
+
+    # If a user-modifiable settings.json exists, load it
+    if os.path.exists(writable_path):
+        settings_path = writable_path
+    else:
+        settings_path = get_data_file_path('settings.json')  # Load default settings
+
+    with open(settings_path, 'r', encoding='utf-8') as f:
+        return json.load(f)
+
 def save_settings(settings):
-    with open(SETTINGS_FILE, 'w') as f:
+    """Saves settings to a user-writable location."""
+    settings_path = get_writable_settings_path()
+    with open(settings_path, 'w', encoding='utf-8') as f:
         json.dump(settings, f, indent=4)
 
 def adjust_settings():
