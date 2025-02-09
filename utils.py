@@ -1,9 +1,10 @@
 import os
 import ctypes
 import json
+import sys
 
 def set_console_title():
-    os.system("title DBD Randomizer - By Merky")
+    os.system("title DBD Randomizer - by Merky")
 
 def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -11,10 +12,21 @@ def clear_screen():
 def pause_screen():
     os.system('pause' if os.name == 'nt' else 'Press Enter to continue...')
 
-def load_data_from_json(file_path, encoding='utf-8'):
+def get_resource_path(filename):
+    """Get the correct file path for bundled or standalone execution."""
+    if getattr(sys, 'frozen', False):  # Running as a PyInstaller .exe
+        base_path = sys._MEIPASS
+    else:
+        base_path = os.path.dirname(os.path.abspath(__file__))
+
+    return os.path.join(base_path, 'data', filename)
+
+def load_data_from_json(filename, encoding='utf-8'):
+    """Loads data from a JSON file, handling paths correctly in PyInstaller."""
+    file_path = get_resource_path(filename)
+
     with open(file_path, 'r', encoding=encoding) as f:
-        data = json.load(f)
-    return data
+        return json.load(f)
 
 def get_user_choice(min_choice, max_choice):
     while True:
